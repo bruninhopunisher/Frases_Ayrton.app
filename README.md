@@ -2,6 +2,6 @@
 
 A new Flutter project.
 
-Um app desenvolvido para fans de Ayrton, com algumas de suas frases marcantes ditas ao longo de sua carreira.
+Um app desenvolvido para fãns de Senna, com algumas de suas frases marcantes ditas ao longo de seus 34 anos de vida.
 
-Aplicação feita no framework Flutter e linguagem Dart, utilizando conhecimentos basicos.
+Aplicação escrita em Dart dentro do Framework Flutter, utilizando conhecimentos básicos.
