@@ -1,6 +1,4 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'dart:math';
 
 void main() {
@@ -16,7 +14,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  var _frases = [
+  final _frases = [
     "Mulheres - com elas uma encrenca, mas sem elas não se pode viver.",
     "Vencer é o que importa. O resto é a consequência.",
     "Uma maneira de preservar sua própria imagem é não deixar que o mundo invada sua casa. "
@@ -48,7 +46,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.yellow,
-        title: Text(
+        title: const Text(
           "Frases Ayrton Senna",
           style: TextStyle(
             fontSize: 25,
@@ -58,7 +56,7 @@ class _HomeState extends State<Home> {
         ),
       ),
       body: Container(
-        padding: EdgeInsets.all(16),
+        padding: const EdgeInsets.all(16),
         width: double.infinity,
         decoration: BoxDecoration(
             color: Colors.blue,
@@ -79,14 +77,14 @@ class _HomeState extends State<Home> {
               Text(
                 _fraseGerada,
                 textAlign: TextAlign.justify,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 20,
                   fontStyle: FontStyle.italic,
                   color: Colors.white,
                 ),
               ),
               RaisedButton(
-                child: Text(
+                child: const Text(
                   "Nova frase",
                   style: TextStyle(
                     fontSize: 25,
